@@ -46,6 +46,7 @@ Array [
       "note": "C1",
       "startPlayingNote": [Function],
       "stopPlayingNote": [Function],
+      "test": true,
     },
   ],
   Array [
@@ -56,6 +57,7 @@ Array [
       "note": "C#1",
       "startPlayingNote": [Function],
       "stopPlayingNote": [Function],
+      "test": true,
     },
   ],
   Array [
@@ -66,6 +68,7 @@ Array [
       "note": "D1",
       "startPlayingNote": [Function],
       "stopPlayingNote": [Function],
+      "test": true,
     },
   ],
   Array [
@@ -76,6 +79,7 @@ Array [
       "note": "D#1",
       "startPlayingNote": [Function],
       "stopPlayingNote": [Function],
+      "test": true,
     },
   ],
   Array [
@@ -86,6 +90,7 @@ Array [
       "note": "E1",
       "startPlayingNote": [Function],
       "stopPlayingNote": [Function],
+      "test": true,
     },
   ],
   Array [
@@ -96,6 +101,7 @@ Array [
       "note": "F1",
       "startPlayingNote": [Function],
       "stopPlayingNote": [Function],
+      "test": true,
     },
   ],
   Array [
@@ -106,6 +112,7 @@ Array [
       "note": "F#1",
       "startPlayingNote": [Function],
       "stopPlayingNote": [Function],
+      "test": true,
     },
   ],
   Array [
@@ -116,6 +123,7 @@ Array [
       "note": "G1",
       "startPlayingNote": [Function],
       "stopPlayingNote": [Function],
+      "test": true,
     },
   ],
   Array [
@@ -126,6 +134,7 @@ Array [
       "note": "G#1",
       "startPlayingNote": [Function],
       "stopPlayingNote": [Function],
+      "test": true,
     },
   ],
   Array [
@@ -136,6 +145,7 @@ Array [
       "note": "A1",
       "startPlayingNote": [Function],
       "stopPlayingNote": [Function],
+      "test": true,
     },
   ],
   Array [
@@ -146,6 +156,7 @@ Array [
       "note": "A#1",
       "startPlayingNote": [Function],
       "stopPlayingNote": [Function],
+      "test": true,
     },
   ],
   Array [
@@ -156,6 +167,7 @@ Array [
       "note": "B1",
       "startPlayingNote": [Function],
       "stopPlayingNote": [Function],
+      "test": true,
     },
   ],
   Array [
@@ -166,6 +178,7 @@ Array [
       "note": "C2",
       "startPlayingNote": [Function],
       "stopPlayingNote": [Function],
+      "test": true,
     },
   ],
 ]

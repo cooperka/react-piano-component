@@ -23,6 +23,7 @@ describe('Piano', () => {
     mount(<Piano startNote={'C1'}
       endNote={'C2'}
       renderPianoKey={renderPianoKey}
+      pianoKeyProps={{ test: true }}
     />);
 
     expect(renderPianoKey.mock.calls).toMatchSnapshot();
