@@ -32,7 +32,7 @@ export default class Instrument extends Component {
 
   getNoteFromKeyboardKey(keyboardKey) {
     const { keyboardMap } = this.props;
-    return keyboardMap[keyboardKey.toUpperCase()];
+    return keyboardMap[keyboardKey] || keyboardMap[keyboardKey.toUpperCase()];
   }
 
   handleKeyDown(event) {
