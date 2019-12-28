@@ -196,3 +196,15 @@ Array [
   ],
 ]
 `;
+
+exports[`Piano renders Instrument with the expected props 1`] = `
+Object {
+  "getNoteAtIndex": [Function],
+  "instrument": "acoustic_grand_piano",
+  "keyboardMap": Object {},
+  "renderAudio": undefined,
+  "renderInstrument": [Function],
+}
+`;
+
+exports[`Piano renders Instrument with the expected props 2`] = `"C1"`;

@@ -18,6 +18,19 @@ function stopPlayingPianoKey(wrapper, note) {
 }
 
 describe('Piano', () => {
+  it('renders Instrument with the expected props', () => {
+    const wrapper = mount(
+      <Piano startNote={'C1'}
+        endNote={'C2'}
+        renderPianoKey={PianoKey}
+      />
+    );
+
+    const instrumentProps = wrapper.childAt(0).props();
+    expect(instrumentProps).toMatchSnapshot();
+    expect(instrumentProps.getNoteAtIndex(0)).toMatchSnapshot();
+  });
+
   it('calls renderPianoKey() with the expected props', () => {
     const renderPianoKey = jest.fn(PianoKey);
     mount(<Piano startNote={'C1'}

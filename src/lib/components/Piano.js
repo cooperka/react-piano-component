@@ -8,6 +8,7 @@ export default function Piano({
   startNote, endNote, keyboardMap, renderPianoKey, pianoKeyProps, renderAudio, ...instrumentProps
 }) {
   const notes = getNotesBetween(startNote, endNote);
+  const getNoteAtIndex = index => notes[index];
 
   return (
     <Instrument
@@ -30,6 +31,7 @@ export default function Piano({
         ))
       }
       renderAudio={renderAudio}
+      getNoteAtIndex={getNoteAtIndex}
       {...instrumentProps}
     />
   );

@@ -37,7 +37,7 @@ export default class Instrument extends Component {
 
   handleKeyDown(event) {
     if (isRegularKey(event) && !event.repeat) {
-      const { onKeyDown } = this.props;
+      const { onKeyDown, getNoteAtIndex } = this.props;
 
       const note = this.getNoteFromKeyboardKey(event.key);
       if (note) {
@@ -45,14 +45,14 @@ export default class Instrument extends Component {
       }
 
       if (onKeyDown) {
-        onKeyDown(event.key, note, this.startPlayingNote, this.stopPlayingNote);
+        onKeyDown(event.key, note, this.startPlayingNote, this.stopPlayingNote, getNoteAtIndex);
       }
     }
   }
 
   handleKeyUp(event) {
     if (isRegularKey(event)) {
-      const { onKeyUp } = this.props;
+      const { onKeyUp, getNoteAtIndex } = this.props;
 
       const note = this.getNoteFromKeyboardKey(event.key);
       if (note) {
@@ -60,7 +60,7 @@ export default class Instrument extends Component {
       }
 
       if (onKeyUp) {
-        onKeyUp(event.key, note, this.startPlayingNote, this.stopPlayingNote);
+        onKeyUp(event.key, note, this.startPlayingNote, this.stopPlayingNote, getNoteAtIndex);
       }
     }
   }
