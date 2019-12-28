@@ -14,10 +14,11 @@ export default function Piano({
       instrument={'acoustic_grand_piano'}
       keyboardMap={keyboardMap}
       renderInstrument={({ notesPlaying, onPlayNoteStart, onPlayNoteEnd }) =>
-        notes.map(note => (
+        notes.map((note, index) => (
           <Fragment key={note}>
             {renderPianoKey({
               note,
+              index,
               isNoteAccidental: isAccidentalNote(note),
               isNotePlaying: notesPlaying.includes(note),
               startPlayingNote: () => onPlayNoteStart(note),

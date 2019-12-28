@@ -40,6 +40,7 @@ exports[`Piano calls renderPianoKey() with the expected props 1`] = `
 Array [
   Array [
     Object {
+      "index": 0,
       "isNoteAccidental": false,
       "isNotePlaying": false,
       "keyboardShortcuts": Array [],
@@ -51,6 +52,7 @@ Array [
   ],
   Array [
     Object {
+      "index": 1,
       "isNoteAccidental": true,
       "isNotePlaying": false,
       "keyboardShortcuts": Array [],
@@ -62,6 +64,7 @@ Array [
   ],
   Array [
     Object {
+      "index": 2,
       "isNoteAccidental": false,
       "isNotePlaying": false,
       "keyboardShortcuts": Array [],
@@ -73,6 +76,7 @@ Array [
   ],
   Array [
     Object {
+      "index": 3,
       "isNoteAccidental": true,
       "isNotePlaying": false,
       "keyboardShortcuts": Array [],
@@ -84,6 +88,7 @@ Array [
   ],
   Array [
     Object {
+      "index": 4,
       "isNoteAccidental": false,
       "isNotePlaying": false,
       "keyboardShortcuts": Array [],
@@ -95,6 +100,7 @@ Array [
   ],
   Array [
     Object {
+      "index": 5,
       "isNoteAccidental": false,
       "isNotePlaying": false,
       "keyboardShortcuts": Array [],
@@ -106,6 +112,7 @@ Array [
   ],
   Array [
     Object {
+      "index": 6,
       "isNoteAccidental": true,
       "isNotePlaying": false,
       "keyboardShortcuts": Array [],
@@ -117,6 +124,7 @@ Array [
   ],
   Array [
     Object {
+      "index": 7,
       "isNoteAccidental": false,
       "isNotePlaying": false,
       "keyboardShortcuts": Array [],
@@ -128,6 +136,7 @@ Array [
   ],
   Array [
     Object {
+      "index": 8,
       "isNoteAccidental": true,
       "isNotePlaying": false,
       "keyboardShortcuts": Array [],
@@ -139,6 +148,7 @@ Array [
   ],
   Array [
     Object {
+      "index": 9,
       "isNoteAccidental": false,
       "isNotePlaying": false,
       "keyboardShortcuts": Array [],
@@ -150,6 +160,7 @@ Array [
   ],
   Array [
     Object {
+      "index": 10,
       "isNoteAccidental": true,
       "isNotePlaying": false,
       "keyboardShortcuts": Array [],
@@ -161,6 +172,7 @@ Array [
   ],
   Array [
     Object {
+      "index": 11,
       "isNoteAccidental": false,
       "isNotePlaying": false,
       "keyboardShortcuts": Array [],
@@ -172,6 +184,7 @@ Array [
   ],
   Array [
     Object {
+      "index": 12,
       "isNoteAccidental": false,
       "isNotePlaying": false,
       "keyboardShortcuts": Array [],
